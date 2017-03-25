@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7e2786a-af50-4ffb-9e0b-3ce3ae572ba3" name="Default" comment="kimia first changes on main page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/css/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/images/hero-header-slider/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/images/hero-header-slider/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/images/hero-header-slider/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/images/hero-header-slider/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/images/hero-header-slider/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/images/hero-header-slider/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/img/i_food_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/img/i_sports_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/img/i_web_devlopment_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/css/Kimia.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/css/fontiran.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unilearn/js/slick.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/css/colorpicker.css" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/css/colorpicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/css/styles.css" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/css/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_background.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_background.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_hex.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_hex.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_hsb_b.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_hsb_b.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_hsb_h.html" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_hsb_h.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_hsb_s.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_hsb_s.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_indic.gif" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_indic.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_overlay.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_overlay.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_rgb_b.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_rgb_b.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_rgb_g.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_rgb_g.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_rgb_r.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_rgb_r.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_select.gif" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_select.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/images/colorpicker_submit.png" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/images/colorpicker_submit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/js/colorpicker.js" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/js/colorpicker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unilearn/tuner/js/scripts.js" afterPath="$PROJECT_DIR$/unilearn/tuner-must-be-deleted/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vestaak_learn.iml" afterPath="$PROJECT_DIR$/.idea/vestaak_learn.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unilearn/courses-grid.html" afterPath="$PROJECT_DIR$/unilearn/courses-grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unilearn/courses-list.html" afterPath="$PROJECT_DIR$/unilearn/courses-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unilearn/css/font-awesome.css" afterPath="$PROJECT_DIR$/unilearn/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unilearn/css/main.css" afterPath="$PROJECT_DIR$/unilearn/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unilearn/index-with-search.html" afterPath="$PROJECT_DIR$/unilearn/index-with-search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unilearn/index.html" afterPath="$PROJECT_DIR$/unilearn/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unilearn/css/Kimia.css" afterPath="$PROJECT_DIR$/unilearn/css/Kimia.css" />
     </list>
     <ignored path="vestaak_learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +22,29 @@
   <component name="FavoritesManager">
     <favorites_list name="vestaak_learn" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Kimia.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unilearn/css/Kimia.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/unilearn/css/Kimia.css" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -66,10 +54,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="268" />
-    <option name="y" value="74" />
-    <option name="width" value="1376" />
-    <option name="height" value="858" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,7 +76,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -105,12 +92,43 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vestaak_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vestaak_learn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unilearn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
@@ -130,6 +148,7 @@
       <workItem from="1488608077264" duration="24000" />
       <workItem from="1488609875334" duration="606000" />
       <workItem from="1488970440314" duration="76000" />
+      <workItem from="1490456905041" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="kimia first changes on main page">
       <created>1488610398154</created>
@@ -142,29 +161,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="706000" />
+    <option name="totallyTimeSpent" value="831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="268" y="74" width="1376" height="858" extended-state="0" />
-    <editor active="false" />
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36778116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19436416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24177396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24157304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,5 +207,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/unilearn/css/Kimia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
