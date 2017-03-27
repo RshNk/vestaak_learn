@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/Profile.css">
+    <link rel="stylesheet" type="text/css" href="css/select2.css">
 
 
     <!--styles -->
@@ -165,57 +166,55 @@
     <!-- / page title -->
 </header>
 <!-- / header -->
+
+
 <div class="page-content container clear-fix">
 
     <div class="grid-col-row">
-        <div class="grid-col grid-col-3 sidebar">
+        <div class="grid-col grid-col-3 sidebar center">
 
-              <img src="pic/260x290-img-2.jpg" data-at2x="pic/260x290-img-2@2x.jpg" class="border-img img-float-left" alt>
-              <h2> name & family </h2>
+            <img src="pic/260x290-img-2.jpg" data-at2x="pic/260x290-img-2@2x.jpg" class="border-img img-float-left" alt>
+            <h2> name & family </h2>
 
             <section>
-                <div class="grid-col grid-col-2 sidebar">
+                <!--<div class="grid-col-2 sidebar">-->
                 <!-- widget search -->
-                  <aside class="widget-search">
-                    <form role="search" method="get" class="search-form" action="#">
-                        <label>
-                            <span class="screen-reader-text">tags: </span>
-                            <input id="profile-input" type="search" class="search-field" placeholder="tags" value="" name="s" title="Search for:" list="datalist">
-                            <datalist id="datalist">
-                                <option> courses 1</option>
-                                <option> courses 2</option>
-                                <option> courses 3</option>
-                                <option> courses 4</option>
-                            </datalist>
-                        </label>
-                        <input id="add-tag" type="button" class="search-submit" value="OK">
-                    </form>
-                  </aside>
-                </div>
+                <!--<aside class="widget-search">-->
 
-                <div class="grid-col-row clear-fix">
-                    <div class="grid-col grid-col-8">
-                            <div id="tag-place" class="columns-col columns-col-4">
-                                <!-- tags -->
-                                <div class="profile-info-box info-boxes error-message tag-radius">
-                                    <div class="info-box-icon smaller"><i class="fa fa-times"></i></div>
-                                    tags
-                                    <div class="close-button"></div>
-                                </div>
+                <!--<form role="search" method="get" class="search-form" action="#">-->
+                <select id="profile-input" class="js-example-basic-single" multiple="multiple" style="width: 270px">
+                    <option value="AL">Alabama</option>
+                    <option value="BB">belabela</option>
+                    <option value="CC">corecore</option>
+                    <option value="WY">Wyoming</option>
+                </select>
+                <!--</form>-->
+                <!--</aside>-->
+                <!--</div>-->
+                <!--<div class="grid-col-row clear-fix">-->
+                <!--<div class="grid-col grid-col-8">-->
+                <!--<div id="tag-place" class="columns-col columns-col-4">-->
+                <!--&lt;!&ndash; tags &ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="profile-info-box info-boxes error-message tag-radius">&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="info-box-icon smaller"><i class="fa fa-times"></i></div>&ndash;&gt;-->
+                <!--&lt;!&ndash;tags&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="close-button"></div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-                                <!--/tags -->
-                            </div>
-                        </div>
-                    </div>
+                <!--&lt;!&ndash;/tags &ndash;&gt;-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
             </section>
-                    <!-- / types input -->
-
+            <!-- / types input -->
         </div>
+
+
         <div class="grid-col grid-col-9">
             <main>
                 <section class="clear-fix">
                     <!-- tabs -->
-                    <div  class="tabs">
+                    <div  class="tabs columns-col-1">
                         <div id="profile-tabs" class="block-tabs-btn clear-fix">
                             <div class="profile-tabs-face tabs-btn active" id="tab1" data-tabs-id="tabs1"> <i class="fa fa-file fa-2x" aria-hidden="true"></i><br> <small>Documents</small></div>
                             <div class="profile-tabs-face tabs-btn" id="tab2" data-tabs-id="tabs2"> <i class="fa fa-comment fa-2x" aria-hidden="true"></i> <br> <small>Messages</small></div>
@@ -234,10 +233,10 @@
                             <!-- tabs container -->
                             <div class="container-tabs" data-tabs-id="cont-tabs2">
 
-                                    <img src="pic/75x75-img-1.jpg" data-at2x="pic/370x270-img-4@2x.jpg" alt>
-                                    neque euismod, vel luctus nulla tincidunt. Praesent ut dui sit amet ipsum scelerisque rhoncus. Vivamus eu porttitor lectus.
-                                    Nullam varius lacinia congue. Donec ac dapibus elit. Proin facilisis nulla in est mattis, ut dapibus justo euismod.
-                                    Proin sollicitudin a mivel fermentum.
+                                <img src="pic/75x75-img-1.jpg" data-at2x="pic/370x270-img-4@2x.jpg" alt>
+                                neque euismod, vel luctus nulla tincidunt. Praesent ut dui sit amet ipsum scelerisque rhoncus. Vivamus eu porttitor lectus.
+                                Nullam varius lacinia congue. Donec ac dapibus elit. Proin facilisis nulla in est mattis, ut dapibus justo euismod.
+                                Proin sollicitudin a mivel fermentum.
                                 <br>
                                 <ol class="pf-btn">
                                     <li><a href="#" class="cws-button border-radius alt smaller">read more</a></li>
@@ -260,21 +259,21 @@
                             <!-- tabs container -->
                             <div class="container-tabs" data-tabs-id="cont-tabs3"><strong>Maecenas aliquam risus et neque euismod, vel luctus nulla tincidunt.</strong><br /> Praesent ut dui sit amet ipsum scelerisque rhoncus.<br /><br /> Vivamus eu porttitor lectus. Nullam varius lacinia congue. Donec ac dapibus elit. Proin facilisis nulla in est mattis, ut dapibus justo.Cras porta dictum condimentum. Nulla magna erat, facilisis non velit eu, suscipit bibendum quam. Phasellus sit amet viverra neque.</div>
                             <!--/tabs container -->
-                        <!-- tabs container -->
-                        <div class="container-tabs" data-tabs-id="cont-tabs4">
-                            <div id="profile-table" class="datagrid"><table>
-                                <thead>
-                                <tr><th>header</th><th>header</th><th>header</th><th>header</th><th>header</th><th>header</th></tr></thead>
-                                <tfoot><tr><td colspan="6"><div id="no-paging">&nbsp;</div></tr></tfoot>
-                                <tbody><tr><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td></tr>
-                                <tr><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td></tr>
-                                </tbody>
-                            </table>
+                            <!-- tabs container -->
+                            <div class="container-tabs" data-tabs-id="cont-tabs4">
+                                <div id="profile-table" class="datagrid"><table>
+                                    <thead>
+                                    <tr><th>header</th><th>header</th><th>header</th><th>header</th><th>header</th><th>header</th></tr></thead>
+                                    <tfoot><tr><td colspan="6"><div id="no-paging">&nbsp;</div></tr></tfoot>
+                                    <tbody><tr><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td></tr>
+                                    <tr><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td></tr>
+                                    </tbody>
+                                </table>
+                                </div>
                             </div>
+                            <!--/tabs container -->
+                            <!--/tabs keeper -->
                         </div>
-                        <!--/tabs container -->
-                        <!--/tabs keeper -->
-                    </div>
                     </div>
                     <!-- /tabs -->
                 </section>
@@ -628,6 +627,8 @@
 <script src="js/jquery.fancybox-media.js"></script>
 <script src="js/retina.min.js"></script>
 <script src="js/profile-add-tags.js"></script>
+<script src="js/select2.js"></script>
+
 </body>
 
 <!-- Mirrored from html.creaws.com/unilearn/page-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2017 12:04:36 GMT -->
