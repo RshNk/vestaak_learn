@@ -94,8 +94,56 @@ h2{
 .grid-col-row .grid-col-3{
     width:270px;
 }
-@media screen and (max-width: 1200px) {
-    .img-center{
-        margin: 0 auto;
-    }
+
+  /*select2*/
+ul li:before{
+    content: "\f111";
+    font-family: "FontAwesome";
+    font-size: 0px;
+    position: absolute;
+    left: 0px;
+    color: #f27c66;
+    font-weight: 800;
+    line-height: 35px;
 }
+ul li, ol li {
+    line-height: normal;
+    padding-left: 20px;
+    position: relative;
+}
+
+.select2 .select2-selection {
+    height: auto;
+    border-radius: 0px;
+    border: 1px solid #E1E1E1;
+}
+     /*/select2*/
+
+
+/*@media only screen and  (max-width: 1200px) {*/
+
+    /*.tabs .profile-tabs-face{*/
+        /*height: 30px;*/
+        /*width: 50px;*/
+        /*padding-top: 30px;*/
+        /*padding-bottom: 40px;*/
+        /*line-height: 30px;*/
+        /*text-align: center;*/
+        /*margin-right: 5px;*/
+
+    /*}*/
+/*}*/
+
+/*@media all and (min-width: 1200px) ,(max-width: 1200px) and (min-width: 980px) {*/
+    /*.tabs .profile-tabs-face{*/
+        /*height: 30px; !important;*/
+        /*width: 80px;*/
+        /*padding-top: 30px;*/
+        /*padding-bottom: 40px;*/
+        /*line-height: 30px;*/
+        /*text-align: center;*/
+        /*margin-right: 5px;*/
+
+    /*}*/
+
+/*}*/
