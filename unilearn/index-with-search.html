@@ -172,6 +172,31 @@
                 </div>
                 <div class="item">
                     <h4>4</h4>
+                </div>
+                <div class="item">
+                    <h4>5</h4>
+                </div>
+                <div class="item">
+                    <h4>6</h4>
+                </div>
+                <div class="item">
+                    <h4>7</h4>
+                </div>
+                <div class="item">
+                    <h4>8</h4>
+                </div>
+                <div class="item">
+                    <h4>9</h4>
+                </div>
+                <div class="item">
+                    <h4>10</h4>
+                </div>
+                <div class="item">
+                    <h4>11</h4>
+                </div>
+                <div class="item">
+                    <h4>12</h4>
+                </div>
             </div>
             <script>
                 $(document).ready(function() {
@@ -181,7 +206,7 @@
                         loop: true,
                         margin: 10,
                         autoplay: true,
-                        autoplayTimeout: 5000,
+                        autoplayTimeout: 1000,
                         autoplayHoverPause: false
 
                     });
@@ -202,26 +227,25 @@
     <section class="search-form">
         <div class="container grid-row clear-fix">
             <h2 class="center-text">Emerge yourself by learning new Skills</h2>
-            <!--<form action="#" method="get" class="form-inline">-->
-            <!--<fieldset>-->
-            <!--<div class="input-group">-->
-            <!--<input type="text" name="s" id="search" placeholder="What do you want to learn today" value="" class="form-control" />-->
-            <!--<span class="input-group-btn">-->
-            <!--<button type="submit" class="btn btn-orange btn-medium"><i class="lnr lnr-magnifier"></i> Search</button>-->
-            <!--</span>-->
-            <!--</div>-->
-            <!--</fieldset>-->
-            <!--</form>&lt;!&ndash; #search-form #end  &ndash;&gt;-->
 
-            <aside class="widget-search">
-                <form method="get" class="search-form" action="#">
-                    <label>
-                        <span class="screen-reader-text">Search for:</span>
-                        <input type="search" class="search-field main-search" placeholder="What do you want to learn today..." value="" name="s" title="Search for:">
-                    </label>
-                    <input type="submit" class="search-submit" value="SEARCH">
-                </form>
-            </aside>
+            <!--<div class="widget-search">-->
+                <!--<form method="get" class="search-form" action="#">-->
+                    <!--<input type="submit" class="search-submit" value="SEARCH">-->
+                    <!--<input type="search" class="search-field main-search" placeholder="What do you want to learn today..." value="" name="s" title="Search for:">-->
+                <!--</form>-->
+            <!--</div>-->
+
+            <div class="clear-fix">
+                <aside class="widget-search">
+                    <form method="get" class="search-form" action="#">
+                        <label>
+                            <span class="screen-reader-text">Search for:</span>
+                            <input type="search" class="search-field main-search" placeholder="What do you want to learn today..." value="" name="s" title="Search for:">
+                        </label>
+                        <input type="submit" class="search-submit" value="SEARCH">
+                    </form>
+                </aside>
+            </div>
 
             <section class="banners">
                 <!--<h2>Banners</h2>-->
@@ -272,12 +296,11 @@
     <!--Categories-->
     <section class="container">
         <h2 class="center-text">Categories</h2>
-        <div class="column-row clear-fix">
-            <div class="columns-col columns-col-6">
-
+        <div class="grid-col-row clear-fix">
+            <div class="grid-col grid-col-6">
                 <!-- banner -->
-                <div class="banner-offer icon-right bg-color-4 {{--cat-left-first--}}">
-                    <a href="/#">
+                <div class="banner-offer icon-right bg-color-4 cat-left-first">
+                    <a href="#">
                         <h3 style="margin-top: 20px; margin-bottom: 20px;">Web Development</h3>
                         <p>
                             Maecenas cursus mauris libero, a imperdiet enim pellentesque id. Aliquam erat volutpat Lorem
@@ -286,78 +309,84 @@
                     </a>
                 </div>
                 <!-- / banner -->
-            </div>
-
-            <div class="columns-col columns-col-6">
-
-                <div class="columns-row">
-                    <div class="columns-col columns-col-12">
-                        <!-- banner -->
-                        <div class="banner-offer icon-right bg-color-3 {{--cat-right-first--}}">
-                            <a href="/#">
-                                <h3 style="margin-top: 20px; margin-bottom: 20px;">Sports Category</h3>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                </p>
-                                <p>
-                                    When an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="columns-row">
-                    <div class="columns-col columns-col-6">
-                        <div class=" banner-offer icon-right bg-color-2 {{--cat-right-sub1--}}">
-                            <a href="/#">
-                                <h3 style="margin-top: 20px; margin-bottom: 20px;">Music</h3>
-                                <p>
-                                    Make a type specimen book.
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="columns-col columns-col-6">
-                        <div class=" banner-offer icon-right bg-color-5alt {{--cat-right-sub2--}}">
-                            <a href="/#">
-                                <h3 style="margin-top: 20px; margin-bottom: 20px;">Food Recipe</h3>
-                                <p>
-                                    Maecenas cursus mauris libero, a imperdiet enim pellentesque id.
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="column-row clear-fix">
-            <div class="columns-col columns-col-6">
                 <!-- banner -->
-                <div class="banner-offer icon-right bg-color-6 {{--cat-left-second--}}">
-                    <a href="/#">
+                <div class="banner-offer icon-right bg-color-6 cat-left-second">
+                    <a href="#">
                         <h3 style="margin-top: 20px; margin-bottom: 20px;">Frontend</h3>
                         <p>
                             Make a type specimen book.
                         </p>
                     </a>
                 </div>
+                <!-- / banner -->
             </div>
-            <!-- / banner -->
-            <div class="columns-col columns-col-6">
-                <div class="banner-offer icon-right bg-color-1alt {{--cat-right-second--}}">
-                    <a href="/#">
-                        <h3 style="margin-top: 20px; margin-bottom: 20px;">Web Development</h3>
+            <div class="grid-col grid-col-6">
+                <!-- banner -->
+                <div class="banner-offer icon-right bg-color-3 cat-right-first">
+                    <a href="#">
+                        <h3 style="margin-top: 20px; margin-bottom: 20px;">Sports Category</h3>
                         <p>
-                            Maecenas cursus mauris libero, a imperdiet enim pellentesque id. Aliquam erat volutpat Lorem
-                            Ipsum is simply dummy.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <p>
+                            When an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                     </a>
                 </div>
-            </div>
+                <!-- / banner -->
 
+                <!-- banner -->
+                <!--<div class="banner-offer icon-right bg-color-4">-->
+
+                <!--<section>-->
+                <!--<div class="grid-col-row clear-fix">-->
+                    <!--<div class="grid-col grid-col-6 cat-right-sub1">-->
+                        <!--&lt;!&ndash; banner &ndash;&gt;-->
+                        <div class="banner-offer icon-right bg-color-2 cat-right-sub1">
+                            <a href="#">
+                                <h3 style="margin-top: 20px; margin-bottom: 20px;">Music</h3>
+                                <p>
+                                    Make a type specimen book.
+                                </p>
+                            </a>
+                        </div>
+                        <!-- / banner -->
+                    <!--</div>-->
+                    <!--<div class="grid-col grid-col-6  cat-right-sub2">-->
+                        <!-- banner -->
+                        <div class="banner-offer icon-right bg-color-5alt cat-right-sub2">
+                            <a href="#">
+                                <h3 style="margin-top: 20px; margin-bottom: 20px;">Food Recipe</h3>
+                                <p>
+                                    Maecenas cursus mauris libero, a imperdiet enim pellentesque id.
+                                </p>
+                            </a>
+                        </div>
+                        <!-- / banner -->
+                    <!--</div>-->
+
+                <!--</section>-->
+                <!--<div class="grid-col-row clear-fix">-->
+                    <!--<div class="grid-col grid-col-6  cat-right-second">-->
+                        <div class="banner-offer icon-right bg-color-1alt cat-right-second">
+                            <a href="#">
+                                <h3 style="margin-top: 20px; margin-bottom: 20px;">Web Development</h3>
+                                <p>
+                                    Maecenas cursus mauris libero, a imperdiet enim pellentesque id. Aliquam erat volutpat Lorem
+                                    Ipsum is simply dummy.
+                                </p>
+                            </a>
+                        </div>
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+                <!--<div class="banner-icon">-->
+                <!--<i class="fa fa-book"></i>-->
+                <!--</div>-->
+                <!--<div class="banner-text"><h2>JOIN NOW</h2><p>Summer offer</p></div>-->
+                <!--</div>-->
+                <!-- / banner -->
+            </div>
         </div>
     </section>
     <!-- / Categories-->

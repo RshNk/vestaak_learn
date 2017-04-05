@@ -655,11 +655,11 @@ html.t-pattern-8 {
 	width: 100%;
 }
 .grid-col {
-	float: right;
-	margin-right: 30px;
+	float: left;
+	margin-left: 30px;
 }
 .grid-col-row {
-	margin-right: -30px;
+	margin-left: -30px;
 }
 .grid-col-3 {
 	width: 270px;
@@ -688,10 +688,10 @@ html.t-pattern-8 {
 		width: 940px;
 	}
 	.grid-col {
-		margin-right: 20px;
+		margin-left: 20px;
 	}
 	.grid-col-row {
-		margin-right: -20px;
+		margin-left: -20px;
 	}
 	.grid-col-3 {
 		width: 220px;
@@ -715,10 +715,10 @@ html.t-pattern-8 {
 		width: 738px;
 	}
 	.grid-col {
-		margin-right: 18px;
+		margin-left: 18px;
 	}
 	.grid-col-row {
-		margin-right: -18px;
+		margin-left: -18px;
 	}
 	.grid-col-3 {
 		width: 171px;
@@ -748,7 +748,7 @@ html.t-pattern-8 {
 	}
 	
 	.grid-col.grid-col-3.alt {
-		float: right;
+		float: left;
 		width: calc(50% - 20px);
 		margin-left: 10px;
 		margin-right: 10px;
@@ -767,7 +767,7 @@ html.t-pattern-8 {
 	.grid-col.grid-col-4,
 	.grid-col.grid-col-6,
 	.grid-col.grid-col-3{
-		float: right;
+		float: left;
 		width: calc(50% - 20px);
 		/* margin-bottom: 0; */
 		/* padding: 0 10px 0 10px; */
@@ -818,7 +818,7 @@ html.t-pattern-8 {
 /* grid */
 /**/
 .columns-row {
-	margin: 0 -15px 30px;
+	margin: 0 -15px;
 }
 .columns-row:after {
 	content: '';
@@ -826,7 +826,7 @@ html.t-pattern-8 {
 	clear: both;
 }
 .columns-col {
-	float: right;
+	float: left;
 	padding: 0 15px;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -1388,7 +1388,7 @@ header:before{
 	float: right;
 }
 .main-nav>ul>li {
-	float: right;
+	float: left;
 	line-height: 100px;
 	
 }
@@ -1406,9 +1406,9 @@ header:before{
 	display: block;
 	padding-left: 20px;
 }
-.main-nav>ul>li>a:after {
+.main-nav>ul>li>a:before {
 	content: "|";
-	padding-right: 20px;
+	padding-left: 20px;
 	color: #dfdfdf;
 	font-size: 1em;
 }
@@ -2146,13 +2146,13 @@ footer .copyright span:before {
 	float: right;
 }
 .footer-nav>ul>li{
-	float: right;
+	float: left;
 	line-height: 60px;
 }
 .footer-nav>ul>li>a:after{
 	content: "|";
 	color: #8f96a2;
-	margin-right: 18px;
+	margin-left: 18px;
 }
 .footer-nav>ul>li:last-child>a:after{
 	display: none;
