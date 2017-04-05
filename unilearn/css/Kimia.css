@@ -429,3 +429,53 @@ address {
 /**/
 /*end of must be changed in main css later*/
 /**/
+
+/**/
+/*final approval*/
+/**/
+
+.factor .instructor-avatar{
+    float: right;
+}
+
+.factor{
+    background-color: white !important;
+    color: #333333;
+}
+.factor:hover{
+    background-color: white !important;
+}
+.factor .cart_totals table {
+    border: #e1e1e1;
+}
+
+.factor .cart_totals h3{
+    text-align: center;
+}
+
+.factor .cart_totals {
+    color: #333333;
+}
+
+.factor .cart_totals {
+    overflow: hidden;
+}
+
+
+
+/*.factor .info-box {*/
+    /*color: #454545;*/
+/*}*/
+
+/*.factor .info-box .divider {*/
+    /*color: #5f5f5f;*/
+/*}*/
+
+/*.factor {*/
+    /*background-color: white;*/
+/*}*/
+
+
+/**/
+/*end of final approval*/
+/**/
