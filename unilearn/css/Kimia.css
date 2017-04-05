@@ -406,3 +406,26 @@ address {
 /**/
 /*end of pricing plan*/
 /**/
+
+/**/
+/*must be changed in main css later*/
+/**/
+
+/*ul li:before {*/
+    /*content: none;*/
+/*}*/
+
+/*ul li:after {*/
+    /*content: "\f111";*/
+    /*font-family: "FontAwesome";*/
+    /*font-size: 8px;*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*color: #f27c66;*/
+    /*font-weight: 800;*/
+    /*line-height: 35px;*/
+}
+
+/**/
+/*end of must be changed in main css later*/
+/**/

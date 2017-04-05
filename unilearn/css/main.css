@@ -5640,16 +5640,16 @@ select.filter.full-width {
 	margin-bottom: 24px;
 }
 .pricing-table ul li {
-	padding-left: 40px;
+	padding-right: 40px;
 	border: 0;
-	text-align: left;
+	text-align: right;
 }
 .pricing-table ul li:nth-child(2n+1){
 	background-color: #f2f2f2;
 }
 .pricing-table ul li:before{
 	content: "√ ";
-	left: 20px;
+	right: 18px;
 	font-size: 13px;
 	line-height: 39px;
 	transition: all 0.3s;
