@@ -36,7 +36,13 @@
 }
 /*Galley!*/
 /*star*/
+.name{
+    right: 0;
+}
 div.stars {
+
+
+    /*margin-right: 5px;*/
 
     width: 250px;
 
@@ -45,16 +51,17 @@ div.stars {
 }
 
 
-
+.main-nav{
+    margin-top: auto;
+}
 input.star { display: none; }
 
 
 
 label.star {
 
-    float: right;
-
-    padding: 5px;
+float: left;
+ padding: 5px;
 
     font-size: 20px;
 
@@ -75,7 +82,6 @@ input.star:checked ~ label.star:before {
     transition: all .25s;
 
 }
-
 
 
 input.star-5:checked ~ label.star:before {
@@ -109,4 +115,14 @@ label.star:before {
     font-size:.5em;
     vertical-align:text-top; /* resembling more the tm symbol you mentioned */
 
+}
+.price {
+    color:red;
+
+}
+.name h2{
+    margin:0;
+    vertical-align: middle;
+    width: 300px;
+    float: right;
 }
