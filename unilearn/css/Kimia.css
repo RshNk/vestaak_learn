@@ -435,13 +435,19 @@ address {
 /**/
 
 .factor .cart_totals{
-    float: left;
+    /*float: left;*/
+}
+
+body {
+    overflow-x: scroll;
 }
 
 .factor{
     background-color: white !important;
     color: #333333;
     min-width: 400px;
+    width: 75%;
+    margin: 0 auto;
 }
 .factor:hover{
     background-color: white !important;
@@ -449,7 +455,19 @@ address {
 
 .factor .factor-header {
     float: right;
-    width: 50%;
+    width: 100%;
+}
+
+.factor .factor-header img {
+    background-color: #ffffff;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
 }
 
 .factor .factor-header a {
@@ -458,26 +476,43 @@ address {
     width: 100%;
     text-align: center;
     text-align: -webkit-center;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .factor .factor-header h3 {
     text-align: center;
     margin: 10px 0;
+    vertical-align: middle;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 .factor .cart_totals{
     padding: 20px 0px;
-    float: left;
-    width: 50%;
+    /*float: left;*/
+    /*width: 50%;*/
 }
 
 .factor .cart_totals table {
-    border: #e1e1e1;
+    border: 1px solid #e1e1e1;
+    width: 75%;
+    margin: 15px auto;
+    display: block;
+    padding: 20px 0;
+    border-top-left-radius: 12px;
+    -ms-border-top-left-radius: 12px;
+    -moz-border-top-left-radius: 12px;
+    -webkit-border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    -ms-border-bottom-right-radius: 12px;
+    -moz-border-bottom-right-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
 }
 
 .factor .cart_totals h3{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .factor .cart_totals {
@@ -486,14 +521,15 @@ address {
 
 .factor .cart_totals {
     overflow: hidden;
+    clear: both;
 }
 
 .factor .cart_totals tr>* {
-    /*text-align: center;*/
+    text-align: center;
 }
 
-.factor .cart_totals tr td {
-    /*text-align: center;*/
+.factor .cart_totals tr:nth-child(2n+0) {
+    background-color: #F9F9F9;
 }
 
 .factor .cart_totals table tbody {
@@ -506,7 +542,7 @@ address {
 }
 
 .factor .factor-name, .factor .cart_totals {
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 /**/
@@ -517,6 +553,15 @@ address {
 /*final message*/
 /**/
 
+.final-message {
+    width: 75%;
+    margin: 0 auto;
+}
+
 .final-message .banner-text:last-child {
     vertical-align: middle;
 }
+
+/**/
+/*end of final message*/
+/**/

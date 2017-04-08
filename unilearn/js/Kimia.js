@@ -4,15 +4,33 @@
 
 // ellipsis
 
+// function ellipsizeTextBox(id) {
+//     var el = document.getElementsByClassName(id)[0];
+//     var wordArray = el.innerHTML.split(' ', 55);
+//     while(el.scrollHeight > el.offsetHeight) {
+//         wordArray.pop();
+//         el.innerHTML = wordArray.join(' ') + '...';
+//     }
+// }
+// ellipsizeTextBox("description");
+
 function ellipsizeTextBox(id) {
-    var el = document.getElementsByClassName(id)[0];
-    var wordArray = el.innerHTML.split(' ', 55);
-    while(el.scrollHeight > el.offsetHeight) {
-        wordArray.pop();
-        el.innerHTML = wordArray.join(' ') + '...';
+    var el = document.getElementsByClassName(id);
+    for (var i = 0, len = el.length; i < len; i++) {
+        var wordArray = el.innerHTML.split(' ', 55);
+        while (el.scrollHeight > el.offsetHeight) {
+            wordArray.pop();
+            el.innerHTML = wordArray.join(' ') + '...';
+        }
     }
 }
 ellipsizeTextBox("description");
+
+$(document).ready(function() {
+    $("description").dotdotdot({
+        //	configuration goes here
+    });
+});
 
 // end of ellipsis
 
