@@ -167,44 +167,26 @@
 </header>
 <!-- / header -->
 
-
 <div class="page-content container clear-fix">
 
     <div class="grid-col-row">
-        <div class="grid-col grid-col-3 sidebar center">
+        <div class="grid-col grid-col-3 sidebar">
 
-            <img src="pic/260x290-img-2.jpg" data-at2x="pic/260x290-img-2@2x.jpg" class="border-img img-float-left" alt>
-            <h2> name & family </h2>
-
+            <article class="clear-fix">
+            <img src="pic/260x290-img-2.jpg" class="border-img img-float-left picture profile-img" alt>
+            <h4 id="NameFamilylbl"> نام نام خانوادگی </h4>
+            <hr class="" />
+            </article>
             <section>
-                <!--<div class="grid-col-2 sidebar">-->
-                <!-- widget search -->
-                <!--<aside class="widget-search">-->
-
-                <!--<form role="search" method="get" class="search-form" action="#">-->
-                <select id="profile-input" class="js-example-basic-single" multiple="multiple" style="width: 270px">
+                <label id="TagLable" for="profile-input">
+                    علاقه مندی ها:
+                <select id="profile-input" class="js-example-basic-single" multiple="multiple" style="width: 100%" >
                     <option value="AL">Alabama</option>
                     <option value="BB">belabela</option>
                     <option value="CC">corecore</option>
                     <option value="WY">Wyoming</option>
                 </select>
-                <!--</form>-->
-                <!--</aside>-->
-                <!--</div>-->
-                <!--<div class="grid-col-row clear-fix">-->
-                <!--<div class="grid-col grid-col-8">-->
-                <!--<div id="tag-place" class="columns-col columns-col-4">-->
-                <!--&lt;!&ndash; tags &ndash;&gt;-->
-                <!--&lt;!&ndash;<div class="profile-info-box info-boxes error-message tag-radius">&ndash;&gt;-->
-                <!--&lt;!&ndash;<div class="info-box-icon smaller"><i class="fa fa-times"></i></div>&ndash;&gt;-->
-                <!--&lt;!&ndash;tags&ndash;&gt;-->
-                <!--&lt;!&ndash;<div class="close-button"></div>&ndash;&gt;-->
-                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-                <!--&lt;!&ndash;/tags &ndash;&gt;-->
-                <!--</div>-->
-                <!--</div>-->
-                <!--</div>-->
+                </label>
             </section>
             <!-- / types input -->
         </div>
@@ -214,12 +196,12 @@
             <main>
                 <section class="clear-fix">
                     <!-- tabs -->
-                    <div  class="tabs columns-col-1">
+                    <div  class="tabs">
                         <div id="profile-tabs" class="block-tabs-btn clear-fix">
-                            <div class="profile-tabs-face tabs-btn active" id="tab1" data-tabs-id="tabs1"> <i class="fa fa-file fa-2x" aria-hidden="true"></i><br> <small>Documents</small></div>
-                            <div class="profile-tabs-face tabs-btn" id="tab2" data-tabs-id="tabs2"> <i class="fa fa-comment fa-2x" aria-hidden="true"></i> <br> <small>Messages</small></div>
-                            <div class="profile-tabs-face tabs-btn" id="tab3" data-tabs-id="tabs3"> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> <br> <small>Contact us</small></div>
-                            <div class="profile-tabs-face tabs-btn" id="tab4" data-tabs-id="tabs4"> <i class="fa fa-ticket fa-2x" aria-hidden="true"></i><br> <small>price</small></div>
+                            <div class="profile-tabs-face tabs-btn active" id="tab1" data-tabs-id="tabs1"> <i class="fa fa-file fa-2x" aria-hidden="true"></i><br> <small>مشخصات </small></div>
+                            <div class="profile-tabs-face tabs-btn" id="tab2" data-tabs-id="tabs2"> <i class="fa fa-comment fa-2x" aria-hidden="true"></i> <br> <small>پیام ها</small></div>
+                            <div class="profile-tabs-face tabs-btn" id="tab3" data-tabs-id="tabs3"> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> <br> <small>تماس با ما</small></div>
+                            <div class="profile-tabs-face tabs-btn" id="tab4" data-tabs-id="tabs4"> <i class="fa fa-ticket fa-2x" aria-hidden="true"></i><br> <small>تخفیف ها</small></div>
                         </div>
                         <!-- tabs keeper -->
                         <div class="tabs-keeper">
@@ -263,10 +245,11 @@
                             <div class="container-tabs" data-tabs-id="cont-tabs4">
                                 <div id="profile-table" class="datagrid"><table>
                                     <thead>
-                                    <tr><th>header</th><th>header</th><th>header</th><th>header</th><th>header</th><th>header</th></tr></thead>
+                                    <tr><th>ردیف</th><th>نام</th><th>درصد</th><th>تاریخ شروع</th><th>انقضا</th><th>وضعیت</th></tr></thead>
                                     <tfoot><tr><td colspan="6"><div id="no-paging">&nbsp;</div></tr></tfoot>
-                                    <tbody><tr><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td></tr>
-                                    <tr><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td><td>data</td></tr>
+                                    <tbody>
+                                    <tr><td>1</td><td>نام</td><td>5٪</td><td>96/1/1</td><td>96/2/1</td><td><div class="status-active">فعال</div></td></tr>
+                                    <tr><td>2</td><td>نام</td><td>10٪</td><td>96/2/1</td><td>96/3/1</td><td><div class="status-deactive">غیرفعال</div></td></tr>
                                     </tbody>
                                 </table>
                                 </div>
