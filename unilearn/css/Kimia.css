@@ -357,6 +357,14 @@ address {
     font-size: 30px;
 }
 
+.price-pt {
+    direction: rtl;
+}
+
+.price-pt .tooman {
+    font-size: 50px;
+}
+
 .pricing-table ul li:nth-child(2n+1) {
     background-color: #FFFFFF;
 }
@@ -374,6 +382,8 @@ address {
 .pricing-table ul {
     margin-bottom: 34px;
 }
+
+
 
 /*.pricing-table {*/
     /*-webkit-transition: border-color 0.3s;*/
@@ -572,5 +582,19 @@ address {
 }
 
 /**/
-/*register with phone number page*/
+/*end of register with phone number page*/
 /**/
+
+/**/
+/*page 404*/
+/**/
+
+.container-404 .number .zero {
+    vertical-align: middle;
+    padding: 5% 15px 0 15px;
+}
+
+/**/
+/*end of page 404*/
+/**/
+
