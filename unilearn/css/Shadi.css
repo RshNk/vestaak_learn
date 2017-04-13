@@ -62,6 +62,11 @@ img.avatar {
 /*.comment-text{*/
     /*float:right;*/
 /*}*/
+
+.columns-row {
+    float: right;
+    margin: 0 -15px 30px;
+}
 .description{
     float: right;
 }
