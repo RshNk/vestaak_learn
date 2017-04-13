@@ -6,6 +6,65 @@
 .cws-button.bt-color-3.border-radius.alt{
     float: right;
 }
+/*commment00*/
+/*.comments{*/
+    /*float: right;*/
+/*}*/
+.div{
+    float: right;
+}
+img.avatar {
+    float: right;
+    display: inline-block;
+    /* float: left; */
+    margin-right: 10px;
+    width: 76px;
+    border: 1px solid #cfcfcf;
+    padding: 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.comments .star-rating {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: left;
+    float: left;
+    line-height: 22px;
+}
+
+
+.star-rating {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 94px;
+    overflow: hidden;
+}
+.comments p {
+    float: right;
+    margin: 0;
+    color: #8f96a2;
+}
+.comment-title{
+    float: right;
+}
+/*.omment_container{*/
+    /*float: right;*/
+/*}*/
+/*.comment{*/
+    /*float: right;*/
+/*}*/
+/*.commentlist{*/
+    /*float: right;*/
+/*}*/
+/*.comment-text{*/
+    /*float:right;*/
+/*}*/
+.description{
+    float: right;
+}
 .video-playe{
     height: 360px;
     width: 640px;
