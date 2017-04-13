@@ -62,7 +62,9 @@ img.avatar {
 /*.comment-text{*/
     /*float:right;*/
 /*}*/
-
+li{
+    color: white;
+}
 .columns-row {
     float: right;
     margin: 0 -15px 30px;
@@ -75,9 +77,7 @@ img.avatar {
     width: 640px;
     /*height: calc(100vh - 8 );*/
 }
-.body{
-    float: right;
-}
+
 /*Gallery*/
 /*.carousel-container{
   float: right;
@@ -123,7 +123,7 @@ img.avatar {
     font-weight: 500;
     position: relative;
     padding-bottom: 5px;
-    margin-bottom: 5px;
+    /*margin-bottom: 5px;*/
     transition: all 0.3s;
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
