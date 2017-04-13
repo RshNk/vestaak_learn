@@ -6,8 +6,10 @@
 .cws-button.bt-color-3.border-radius.alt{
     float: right;
 }
-.video-player{
-    height: calc(100vh - 8 );
+.video-playe{
+    height: 360px;
+    width: 640px;
+    /*height: calc(100vh - 8 );*/
 }
 .body{
     float: right;
@@ -139,6 +141,7 @@
 .tabs-btn.active {
     border-top-color: #18bb7c;
     color: #333333;
+    border-bottom-color: white;
     background-color: #ffffff;
     margin-bottom: -1px;
 }
