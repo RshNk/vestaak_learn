@@ -3,15 +3,50 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
 @import url(../css/fontiran.css);
 /*************************************************************************************************************************************/
-.cws-button.bt-color-3.border-radius.alt{
-    float: right;
-}
+/*.cws-button.bt-color-3.border-radius.alt{*/
+    /*float: right;*/
+/*}*/
 /*commment00*/
 /*.comments{*/
     /*float: right;*/
+/*!*}*!*/
+/*.time{*/
+    /*margin-right: 120px;*/
 /*}*/
+/*.corner-radius.bg-color-2.border-radius.alt.small{*/
+    /*margin-right: 120px;*/
+/*}*/
+/*.cws-button.bt-color-2.border-radius.alt.small{*/
+    /*margin-right: 0;*/
+
+/*}*/
+/*.info{*/
+    /*float: right;*/
+/*}*/
+.duration{
+    width:120px;
+    padding: 1px 2px 0px;
+
+}
+.category{
+    width: auto;
+    padding: 1px 2px 0px;
+}
 .div{
-    float: right;
+    /*float: right;*/
+}
+
+.zaman{
+    display: inherit;
+    line-height: 36px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.time{
+
+    margin-right: 0%;
+    width: 119px;
+    height:36px;
 }
 img.avatar {
     float: right;
