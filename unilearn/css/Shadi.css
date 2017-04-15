@@ -255,6 +255,12 @@ img.avatar {
     text-align: left;
     float: right;
 }
+.teacher-part{
+    float: right;
+}
+.part{
+    float: right;
+}
 /*Galley!*/
 /*star*/
 .name{
@@ -270,11 +276,11 @@ div.stars {
     display: inline-block;
 
 }
-.grid-col-row {
-    margin-left: -30px;
-    /* margin-right: -100000000px; */
-    float: left;
-}
+/*.grid-col-row {*/
+    /*margin-left: -30px;*/
+    /*!* margin-right: -100000000px; *!*/
+    /*float: left;*/
+/*}*/
 
 .main-nav{
     margin-top: auto;
