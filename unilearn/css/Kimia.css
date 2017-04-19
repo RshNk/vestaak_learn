@@ -38,6 +38,7 @@
 /*end of search bar*/
 /**/
 
+
 /**/
 /*categories*/
 /**/
@@ -149,20 +150,27 @@
     float: right;
 }
 .cat-right-sub1, .cat-right-sub2{
-    min-height: 263px;
-    max-height: 263px;
+    display: block;
+    min-height: 246px;
+    max-height: 246px;
+    overflow: hidden;
 }
 
 .banner-offer + .banner-offer {
-     margin-top: 0px;
+     margin-top: 0;
 }
 
 .cat-right-first {
-    min-height: 230px;
+    display: block;
+    min-height: 246px;
+    max-height: 246px;
+    overflow: hidden;
 }
 
-.cat-left-second, .cat-right-second{
+.cat-left-second, .cat-right-second {
+    display: inline-block;
     min-height: 235px;
+    max-height: 235px;
 }
 
 .banner-offer.bg-color-1alt {
@@ -180,9 +188,11 @@
 .banner-offer.bg-color-6alt {
     background-color: #454545 !important;
 }
+
 /**/
 /*end of categories*/
 /**/
+
 
 /**/
 /*align of the "fa" class*/
@@ -194,8 +204,8 @@
 }
 
 .fa {
-    float: right;
-    margin-left: 8px;
+    /*float: right;*/
+    /*margin-left: 8px;*/
     line-height: inherit;
 }
 
@@ -599,7 +609,7 @@ address {
 /**/
 
 /**/
-/*page login*/
+/*page login and page register*/
 /**/
 
 .centering {
@@ -612,7 +622,26 @@ address {
 }
 
 /**/
-/*end of page login*/
+/*end of page login and page register*/
 /**/
+
+/**/
+/*page our staff*/
+/**/
+
+.carousel-button .next, .carousel-button .prev {
+    vertical-align: middle;
+}
+
+.left-margin {
+    margin-right: 0;
+    margin-left: -30px;
+}
+
+/**/
+/*end of page our staff*/
+/**/
+
+
 
 
