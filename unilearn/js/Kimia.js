@@ -4,26 +4,17 @@
 
 // ellipsis
 
-// function ellipsizeTextBox(id) {
-//     var el = document.getElementsByClassName(id)[0];
-//     var wordArray = el.innerHTML.split(' ', 55);
-//     while(el.scrollHeight > el.offsetHeight) {
-//         wordArray.pop();
-//         el.innerHTML = wordArray.join(' ') + '...';
-//     }
-// }
-// ellipsizeTextBox("description");
-
 function ellipsizeTextBox(id) {
     var el = document.getElementsByClassName(id);
     for (var i = 0, len = el.length; i < len; i++) {
-        var wordArray = el.innerHTML.split(' ', 55);
-        while (el.scrollHeight > el.offsetHeight) {
+        var wordArray = el[i].innerHTML.split(' ', 70);
+        while (el[i].scrollHeight > el[i].offsetHeight) {
             wordArray.pop();
-            el.innerHTML = wordArray.join(' ') + '...';
+            el[i].innerHTML = wordArray.join(' ') + '...';
         }
     }
 }
+
 ellipsizeTextBox("description");
 
 $(document).ready(function() {
@@ -34,24 +25,34 @@ $(document).ready(function() {
 
 // end of ellipsis
 
-// pricing hover
 
-// $('.pricing-table').hover(
-//     function(){ $(this).addClass('active') },
-//     function(){ $(this).removeClass('active') }
-// );
+// Get the modal
+var modal = document.getElementById('myModal');
 
-// $(".grid-col-4").mouseenter(function() {
-//     $(this).addClass('hover');
-//     alert("$('#test').attr('class')");
-//     alert("heeeelp");
-// });
-$(".pricing-table").mouseleave(function() {
-    $(this).removeClass('hover');
-});
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
-// $(".pricing-table").hover(function () {
-//     $(this).toggleClass("active");
-// });
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-// end of pricing hover
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
+
+
