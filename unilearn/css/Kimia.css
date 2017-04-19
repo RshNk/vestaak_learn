@@ -373,6 +373,7 @@ address {
 
 .price-pt .tooman {
     font-size: 50px;
+    display: block;
 }
 
 .pricing-table ul li:nth-child(2n+1) {
@@ -643,5 +644,65 @@ address {
 /**/
 
 
+/**/
+/*profile*/
+/**/
+.tabs .tabs-keeper {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
+.info-form {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.form-tel {
+    display: inline-block;
+    width: 49%;
+}
+
+.profile-message {
+    text-align: right;
+    direction: rtl;
+}
+
+.profile-message img {
+    float: right !important;
+    margin-right: 0 !important;
+    margin-left: 18px !important;
+}
+
+.already-seen {
+    background-color: #f27c66 !important;
+    color: #FFFFFF !important;
+}
+
+.profile-table .datagrid{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#profile-table{
+    overflow: hidden;
+}
+
+.datagrid table tbody td {
+    font-size: 15px;
+    padding: 15px 20px;
+}
+
+.datagrid ta
+
+.datagrid table {
+    font-family: "IRANSans";
+    line-height: 24px;
+}
+
+.datagrid table th {
+    padding: 12px 20px;
+}
+
+/**/
+/*end of profile*/
+/**/
