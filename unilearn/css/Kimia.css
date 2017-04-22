@@ -670,6 +670,24 @@ address {
     margin: 15px auto;
 }
 
+.info-form span {
+    width: calc(100% - 30px);
+}
+
+.info-form p {
+    position: relative;
+}
+
+.info-form i {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    line-height: 34px;
+    text-align: center;
+    width: 30px;
+    /*background-color: #FFFFFF;*/
+}
+
 .info-form h3 {
     font-weight: 400;
 }
@@ -697,7 +715,7 @@ address {
 
 .profile-table .datagrid{
     width: 80%;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 #profile-table{
@@ -706,20 +724,54 @@ address {
 
 .datagrid table tbody td {
     font-size: 15px;
-    padding: 15px 20px;
+    padding: 15px 15px;
     /*border-left: 1px solid #CFCFCF;*/
 }
 
 .datagrid {
     font-family: "IRANSans";
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .datagrid table {
     line-height: 24px;
 }
 
-.datagrid table th {
-    padding: 12px 20px;
+.datagrid table thead {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.datagrid table thead th {
+    color: black;
+    font-size: 15px;
+}
+
+.datagrid table th, .datagrid table td {
+    padding: 12px 15px;
+    border-left: 1px solid #E6E6E6;
+}
+
+.datagrid table th:last-child, .datagrid table td:last-child {
+    border-left: hidden;
+}
+
+.datagrid table th, .datagrid table td {
+    text-align: center;
+}
+
+.datagrid table th:nth-child(2), .datagrid table td:nth-child(2) {
+    text-align: right;
+}
+
+.datagrid table .profile-edit i {
+    float: right;
+    margin: 2px;
+}
+
+.datagrid table .profile-edit a {
+    color: #d36c59;
 }
 
 .status-active, .status-deactive {
@@ -740,7 +792,7 @@ address {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1000; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
