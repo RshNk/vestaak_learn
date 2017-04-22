@@ -151,7 +151,7 @@
 
             <article class="clear-fix">
                 <img src="pic/260x290-img-2.jpg" class="border-img img-float-left picture profile-img" alt>
-                <h4 id="NameFamilylbl"> نام نام خانوادگی </h4>
+                <h4 id="NameFamilylbl"> نام و نام خانوادگی </h4>
                 <hr class="" />
             </article>
             <section>
@@ -187,19 +187,30 @@
                                 <div class="info-form">
                                     <h3>اطلاعات شما:</h3>
                                     <form action="" class="contact-form" method="post" novalidate="novalidate">
-                                        <p><span class="your-name"><input type="text" name="name" value="" size="40" placeholder="نام شما..." aria-invalid="false" required></span>
+                                        <p>
+                                            <a href="#"><i class="fa fa-pencil-square-o"></i></a>
+                                            <span class="your-name">
+
+                                                <input type="text" name="name" value="" size="40" placeholder="نام شما..." aria-invalid="false" required>
+                                            </span>
                                         </p>
                                         <p class="form-tel">
                                             <span class="your-name">
+                                                <a href="#"><i class="fa fa-pencil-square-o"></i></a>
                                                 <input type="text" name="name" value="" size="40" placeholder="شماره تلفن همراه شما..." aria-invalid="false" required>
                                             </span>
                                         </p>
                                         <p class="form-tel" style="float: right;">
                                             <span class="your-name">
+                                                <a href="#"><i class="fa fa-pencil-square-o"></i></a>
                                                 <input type="text" name="name" value="" size="40" placeholder="شماره تلفن ثابت شما..." aria-invalid="false" required>
                                             </span>
                                         </p>
-                                        <p><span class="your-email"><input type="text" name="phone" value="" size="40" placeholder="ایمیل شما..." aria-invalid="false" disabled></span>
+                                        <p>
+                                            <span class="your-email">
+                                                <a href="#"><i class="fa fa-pencil-square-o"></i></a>
+                                                <input type="text" name="phone" value="" size="40" placeholder="ایمیل شما..." aria-invalid="false" disabled>
+                                            </span>
                                         </p>
                                     </form>
                                 </div>
@@ -215,16 +226,13 @@
                                 Proin sollicitudin a mivel fermentum.
                                 <br>
                                 <ol class="pf-btn">
-                                    <li><button id="myBtn" class="cws-button border-radius alt smaller">read more</button></li>
+                                    <li><button id="myBtn1" class="cws-button border-radius alt smaller myBtn" modal-target="modal1">read more</button></li>
                                 </ol>
 
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-
-                                    <!-- Modal content -->
+                                <div id="modal1" class="modal myModal">
                                     <div class="modal-content">
-                                        <span class="close">&times;</span>
-                                        <p>Some text in the Modal..</p>
+                                        <span class="close"> &times; </span>
+                                        <p>پیام شما...</p>
                                     </div>
 
                                 </div>
@@ -236,8 +244,16 @@
                                 Proin sollicitudin a mivel fermentum.
                                 <br>
                                 <ol class="pf-btn">
-                                    <li><a href="#" class="cws-button border-radius alt smaller">read more</a></li>
+                                    <li><a href="#" id="myBtn2" class="cws-button border-radius alt smaller myBtn" modal-target="modal2">read more</a></li>
                                 </ol>
+
+                                <div id="modal2" class="modal myModal">
+                                    <div class="modal-content">
+                                        <span class="close"> &times; </span>
+                                        <p>why on earth are you here? O_o</p>
+                                    </div>
+                                </div>
+
                             </div>
                             <!--/tabs container -->
 
@@ -253,33 +269,40 @@
                                                 <th>تاریخ شروع</th>
                                                 <th>انقضا</th>
                                                 <th>وضعیت</th>
+                                                <th>اعمال</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <td colspan="6">
-                                                    <div id="no-paging">&nbsp;</div>
-                                            </tr>
-                                        </tfoot>
+                                        <!--<tfoot>-->
+                                            <!--<tr>-->
+                                                <!--<td colspan="6">-->
+                                                    <!--<div id="no-paging">&nbsp;</div>-->
+                                            <!--</tr>-->
+                                        <!--</tfoot>-->
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>نام</td>
+                                                <td>اسمی نسبتا بلند</td>
                                                 <td>5٪</td>
                                                 <td>96/1/1</td>
                                                 <td>96/2/1</td>
                                                 <td>
                                                     <div class="status-active">فعال</div>
                                                 </td>
+                                                <td class="profile-edit">
+                                                    <a href="#"><i class="fa fa-pencil-square-o"></i>ویرایش</a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>نام</td>
+                                                <td>خانواده رجبی</td>
                                                 <td>10٪</td>
                                                 <td>96/2/1</td>
                                                 <td>96/3/1</td>
                                                 <td>
                                                     <div class="status-deactive">غیرفعال</div>
+                                                </td>
+                                                <td class="profile-edit">
+                                                    <a href="#"><i class="fa fa-pencil-square-o"></i>ویرایش</a>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -534,6 +557,7 @@
         </div>
     </div>
 </footer>
+<script src="js/Kimia.js"></script>
 <script src="js/jquery.min.js"></script>
 <script type='text/javascript' src='js/jquery.validate.min.js'></script>
 <script src="js/jquery.form.min.js"></script>
