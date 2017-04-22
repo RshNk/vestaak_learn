@@ -692,9 +692,18 @@ address {
     font-weight: 400;
 }
 
+.info-form form {
+    margin-bottom: 30px;
+}
+
 .form-tel {
     display: inline-block;
     width: 49%;
+}
+
+.form-button {
+    width: 100%;
+    text-align: center;
 }
 
 .profile-message {
