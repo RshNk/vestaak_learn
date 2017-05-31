@@ -1679,19 +1679,19 @@ if ($(".contact-form").length) {
         },
         messages:
         {
-          name:
-          {
-            required: 'Please enter your name',
-          },
-          email:
-          {
-            required: 'Please enter your email address',
-            email: 'Please enter a VALID email address'
-          },
-          message:
-          {
-            required: 'Please enter your message'
-          }
+            name:
+                {
+                    required: 'نام و نام خانوادگی خود را وارد کنید',
+                },
+            email:
+                {
+                    required: 'ایمیل خود را وارد کنید',
+                    email: 'ایمیل معتبر نمیباشد'
+                },
+            message:
+                {
+                    required: 'لطفا متن خود را وارد کنید'
+                }
         },
         invalidHandler: function()
         {
