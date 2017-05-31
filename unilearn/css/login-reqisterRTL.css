@@ -1,5 +1,5 @@
 .login-block .form-group .input-icon {
-    position: absolute;
+    /*position: absolute;*/
     left: 1px;
     right: auto;
     top: 10px;
@@ -19,27 +19,27 @@
     direction: ltr;
 }
 
-.git-btn{
+/*.git-btn{*/
 
-    margin-left: 85px;
-    margin-bottom:30px;
-    float: left;
-}
-.g-btn{
-    margin-right: 80px;
-    margin-bottom:30px;
-    float: right;
-}
+    /*margin-left: 85px;*/
+    /*margin-bottom:30px;*/
+    /*float: left;*/
+/*}*/
+/*.g-btn{*/
+    /*margin-right: 80px;*/
+    /*margin-bottom:30px;*/
+    /*float: right;*/
+/*}*/
 
 .reg-span-or {
-    display: block;
-    position: absolute;
-    left: 40%;
-    top: -2px;
-    margin-left: -25px;
-    background-color: #fff;
-    width: 120px;
-    text-align: center;
+    /*display: block;*/
+    /*position: absolute;*/
+    /*left: 40%;*/
+    /*top: -2px;*/
+    /*margin-left: -25px;*/
+    /*background-color: #fff;*/
+    /*width: 120px;*/
+    /*text-align: center;*/
 }
 
 input[type="text"],
@@ -60,3 +60,8 @@ input[type="tel"]{
     -webkit-transition: all 0.3s;
 }
 
+ /* register-phone-Number */
+#lblPhoneNumber{
+    direction: rtl;
+}
+/* /register-phone-Number */
